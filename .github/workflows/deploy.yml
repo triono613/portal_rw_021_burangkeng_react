@@ -21,7 +21,7 @@ jobs:
           # host: ${{ secrets.HOST }}
           # username: ${{ secrets.USERNAME }}
           # port: ${{ secrets.PORT }}
-          key: ${{ secrets.SSHKEY }}
+          password : "//Indonesia//123a"
           host: 157.230.251.188
           username: "root"
           port: "22"
