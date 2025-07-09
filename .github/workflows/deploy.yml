@@ -18,8 +18,13 @@ jobs:
       - name: Deploy to Server
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          port: ${{ secrets.PORT }}
-          key: ${{ secrets.SSHKEY }}
+          # host: ${{ secrets.HOST }}
+          # username: ${{ secrets.USERNAME }}
+          # port: ${{ secrets.PORT }}
+          password : "//Indonesia//123a"
+          host: 157.230.251.188
+          username: "root"
+          port: "22"
           script: "cd /var/www/portal_rw_021_burangkeng_react && ./deploy.sh"
+
+          
