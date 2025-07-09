@@ -25,7 +25,11 @@ jobs:
           host: 157.230.251.188
           username: "root"
           port: "22"
-          key: "bnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACCDB95t1GubB2dkUclA7G4yLMJyHjaYNJoIKHvIS2rK4wAAAKCxYpRWsWKUVgAAAAtzc2gtZWQyNTUxOQAAACCDB95t1GubB2dkUclA7G4yLMJyHjaYNJoIKHvIS2rK4wAAAEDjE6dQLUNGeT1JYkBhJ4c0SLKTdy2rV4LNwrz2EvZX8IMH3m3Ua5sHZ2RRyUDsbjIswnIeNpg0mggoe8hLasrjAAAAGHRyaW9uby50cmlvbm8xQGdtYWlsLmNvbQECAwQF"
+          key: "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCDB95t1GubB2dkUclA7G4yLMJyHjaYNJoIKHvIS2rK4wAAAKCxYpRWsWKU
+VgAAAAtzc2gtZWQyNTUxOQAAACCDB95t1GubB2dkUclA7G4yLMJyHjaYNJoIKHvIS2rK4w
+AAAEDjE6dQLUNGeT1JYkBhJ4c0SLKTdy2rV4LNwrz2EvZX8IMH3m3Ua5sHZ2RRyUDsbjIs
+wnIeNpg0mggoe8hLasrjAAAAGHRyaW9uby50cmlvbm8xQGdtYWlsLmNvbQECAwQF"
           script: "cd /var/www/portal_rw_021_burangkeng_react && ./.scripts/deploy.sh"
 
           
