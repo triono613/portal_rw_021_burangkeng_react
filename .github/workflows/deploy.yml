@@ -25,6 +25,6 @@ jobs:
           host: 157.230.251.188
           username: "root"
           port: "22"
-          script: "cd /var/www/portal_rw_021_burangkeng_react && ./.scripts/deploy.sh"
+          script: "cd /var/www/portal_rw_021_burangkeng_react && .scripts/deploy.sh"
 
           
