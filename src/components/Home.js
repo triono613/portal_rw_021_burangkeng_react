@@ -21,7 +21,7 @@ export default class Home extends Component {
                </div> */}
         <br /><br /><br /><br />
         <div className="home-info">
-          <h1>Website UMKM dan Administrasi RT dan RW 021 OKEEEEEE </h1>
+          <h1>Website UMKM dan Administrasi RT dan RW 021  </h1>
           <a href="#about" className="btn section-btn smoothScroll">Jelajahi...</a>
           <br /><br />
           <p style={{color: 'white'}}>
